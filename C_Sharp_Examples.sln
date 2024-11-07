@@ -31,6 +31,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Swap_2_strings_without_usin
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Palindrome_String", "Palindrome_String\Palindrome_String.csproj", "{CA675F1C-F2BF-41E0-969D-E616CE0A9E85}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Arrays_Merge_two_arrays_and_sort", "Arrays_Merge_two_arrays_and_sort\Arrays_Merge_two_arrays_and_sort.csproj", "{2A2A1DB4-C9E1-40CE-A2B1-81D7AB335AAD}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -93,6 +95,10 @@ Global
 		{CA675F1C-F2BF-41E0-969D-E616CE0A9E85}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CA675F1C-F2BF-41E0-969D-E616CE0A9E85}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CA675F1C-F2BF-41E0-969D-E616CE0A9E85}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2A2A1DB4-C9E1-40CE-A2B1-81D7AB335AAD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2A2A1DB4-C9E1-40CE-A2B1-81D7AB335AAD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2A2A1DB4-C9E1-40CE-A2B1-81D7AB335AAD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2A2A1DB4-C9E1-40CE-A2B1-81D7AB335AAD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
