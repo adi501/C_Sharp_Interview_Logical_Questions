@@ -10,12 +10,10 @@ namespace Swap_TwoNumbers_Without_using_Third_Variable
     {
         static void Main(string[] args)
         {
-            int first, second;
-            first = 1;
-            second = 2;
-            first = first + second;
+            int first = 1, second = 2;
+            first= first + second;
             second = first - second;
-            first = first - second;
+            first= first - second;
             Console.WriteLine(first.ToString());
             Console.WriteLine(second.ToString());
             Console.ReadLine();
