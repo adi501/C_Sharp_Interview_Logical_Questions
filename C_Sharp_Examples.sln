@@ -21,13 +21,15 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Convert_Decimal_to_Binary",
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Randomly_Generate_Strings", "Randomly_Generate_Strings\Randomly_Generate_Strings.csproj", "{C2DB666D-2A40-43B3-BBD2-0D17520ADAFC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Palindrome", "Palindrome\Palindrome.csproj", "{F0BBFCA0-E223-470F-863D-2127083884A4}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Palindrome_number", "Palindrome\Palindrome_number.csproj", "{F0BBFCA0-E223-470F-863D-2127083884A4}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Palindrome_other_test_1", "Palindrome_other_test_1\Palindrome_other_test_1.csproj", "{ADA67B62-A2DF-4207-ACCE-A42B62FCD2A3}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Algorithm_Sort_Heap_sort_algorithm", "Algorithm_Sort_Heap_sort_algorithm\Algorithm_Sort_Heap_sort_algorithm.csproj", "{071D4971-6DE9-4EC2-8229-E53F2330092F}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Swap_2_strings_without_using_3rd_variable", "ConsoleApp1\Swap_2_strings_without_using_3rd_variable.csproj", "{5FAFB238-5265-46BA-9777-D05234B96673}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Palindrome_String", "Palindrome_String\Palindrome_String.csproj", "{CA675F1C-F2BF-41E0-969D-E616CE0A9E85}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -87,8 +89,15 @@ Global
 		{5FAFB238-5265-46BA-9777-D05234B96673}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5FAFB238-5265-46BA-9777-D05234B96673}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5FAFB238-5265-46BA-9777-D05234B96673}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CA675F1C-F2BF-41E0-969D-E616CE0A9E85}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CA675F1C-F2BF-41E0-969D-E616CE0A9E85}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CA675F1C-F2BF-41E0-969D-E616CE0A9E85}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CA675F1C-F2BF-41E0-969D-E616CE0A9E85}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {645D5369-9ABB-4655-83E1-63A383FD7D22}
 	EndGlobalSection
 EndGlobal
