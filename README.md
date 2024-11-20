@@ -16,5 +16,7 @@ for (int i = 0; i < arr.Length; i++)
 Console.WriteLine("Second Largest Number: "+b);
 Console.ReadLine();
 ```
+![image](https://github.com/user-attachments/assets/70d72cab-d606-4c3e-9e92-1b687a11a1af)
+
 
 
