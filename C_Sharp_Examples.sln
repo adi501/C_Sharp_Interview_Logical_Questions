@@ -37,6 +37,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Keywords_Virtual_Override_N
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Find_second_largest_number_in_array", "Find_second_largest_number_in_array\Find_second_largest_number_in_array.csproj", "{6EAE8F33-FCA1-4C89-9F97-3F4BB556B326}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Find_Missing_number_in_array", "Find_Missing_number_in_array\Find_Missing_number_in_array.csproj", "{30B9C0BD-9D49-4F92-BFC5-0636943AEC9E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -111,6 +113,10 @@ Global
 		{6EAE8F33-FCA1-4C89-9F97-3F4BB556B326}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6EAE8F33-FCA1-4C89-9F97-3F4BB556B326}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6EAE8F33-FCA1-4C89-9F97-3F4BB556B326}.Release|Any CPU.Build.0 = Release|Any CPU
+		{30B9C0BD-9D49-4F92-BFC5-0636943AEC9E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{30B9C0BD-9D49-4F92-BFC5-0636943AEC9E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{30B9C0BD-9D49-4F92-BFC5-0636943AEC9E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{30B9C0BD-9D49-4F92-BFC5-0636943AEC9E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
