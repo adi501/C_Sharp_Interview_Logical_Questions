@@ -35,9 +35,11 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Arrays_Merge_two_arrays_and
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Keywords_Virtual_Override_New_example", "Keywords_Virtual_Override_New_example\Keywords_Virtual_Override_New_example.csproj", "{497A5F86-72B2-4527-B94B-2EBD660E34FD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Find_second_largest_number_in_array", "Find_second_largest_number_in_array\Find_second_largest_number_in_array.csproj", "{6EAE8F33-FCA1-4C89-9F97-3F4BB556B326}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Find_second_largest_number_in_array", "Find_second_largest_number_in_array\Find_second_largest_number_in_array.csproj", "{6EAE8F33-FCA1-4C89-9F97-3F4BB556B326}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Find_Missing_number_in_array", "Find_Missing_number_in_array\Find_Missing_number_in_array.csproj", "{30B9C0BD-9D49-4F92-BFC5-0636943AEC9E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Find_Missing_number_in_array", "Find_Missing_number_in_array\Find_Missing_number_in_array.csproj", "{30B9C0BD-9D49-4F92-BFC5-0636943AEC9E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Factorial_EXP", "Factorial_EXP\Factorial_EXP.csproj", "{E2E4BB2B-D160-4DC0-AC5E-5F87643FBE66}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -117,6 +119,10 @@ Global
 		{30B9C0BD-9D49-4F92-BFC5-0636943AEC9E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{30B9C0BD-9D49-4F92-BFC5-0636943AEC9E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{30B9C0BD-9D49-4F92-BFC5-0636943AEC9E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E2E4BB2B-D160-4DC0-AC5E-5F87643FBE66}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E2E4BB2B-D160-4DC0-AC5E-5F87643FBE66}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E2E4BB2B-D160-4DC0-AC5E-5F87643FBE66}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E2E4BB2B-D160-4DC0-AC5E-5F87643FBE66}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
