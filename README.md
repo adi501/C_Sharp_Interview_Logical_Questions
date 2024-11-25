@@ -63,6 +63,27 @@ Console.ReadLine();
 ```
 ![image](https://github.com/user-attachments/assets/45d31d85-8d23-47e6-b749-8a21fb44f809)
 
+**Fibonacci Series Example**
+```
+//Fibonacci_Series_Example
+//0,1,1,2,3,5,8,13,21,34 (upto 50)
+
+int firstNum = 0, secondNumber = 1;
+Console.WriteLine(firstNum);
+Console.WriteLine(secondNumber);
+int result=firstNum+secondNumber;
+while(result<50)
+{
+    Console.WriteLine(result);
+    firstNum = secondNumber;
+    secondNumber = result;
+    result = firstNum + secondNumber;
+}
+Console.ReadLine();
+
+```
+![image](https://github.com/user-attachments/assets/fa488c7c-4e4d-456e-8eb8-0c1c88af71ec)
+
 
 
 
