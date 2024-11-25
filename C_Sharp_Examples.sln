@@ -41,6 +41,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Find_Missing_number_in_arra
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Factorial_EXP", "Factorial_EXP\Factorial_EXP.csproj", "{E2E4BB2B-D160-4DC0-AC5E-5F87643FBE66}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fibonacci_Series_Example", "Fibonacci_Series_Example\Fibonacci_Series_Example.csproj", "{56FAFEE1-06AC-454C-81EF-3AD11D240870}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -123,6 +125,10 @@ Global
 		{E2E4BB2B-D160-4DC0-AC5E-5F87643FBE66}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E2E4BB2B-D160-4DC0-AC5E-5F87643FBE66}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E2E4BB2B-D160-4DC0-AC5E-5F87643FBE66}.Release|Any CPU.Build.0 = Release|Any CPU
+		{56FAFEE1-06AC-454C-81EF-3AD11D240870}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{56FAFEE1-06AC-454C-81EF-3AD11D240870}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{56FAFEE1-06AC-454C-81EF-3AD11D240870}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{56FAFEE1-06AC-454C-81EF-3AD11D240870}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
