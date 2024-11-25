@@ -47,7 +47,21 @@ Console.ReadLine();
 ```
 ![image](https://github.com/user-attachments/assets/96af222b-4f10-4d4d-8678-520e02a76c68)
 
- 
+
+**Factorial program**
+ ```
+
+int i = 5;
+int result=1; //(5*4*3*2*1)
+for (int j = 1; j <=5; j++)
+{
+    result *= j;
+}
+Console.WriteLine("Factorial of " + i + " is :" + result);
+Console.ReadLine();
+
+```
+![image](https://github.com/user-attachments/assets/45d31d85-8d23-47e6-b749-8a21fb44f809)
 
 
 
