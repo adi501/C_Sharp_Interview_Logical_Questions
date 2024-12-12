@@ -112,6 +112,24 @@ Console.ReadLine();
 ```
 ![image](https://github.com/user-attachments/assets/e9a31400-82c6-4c51-976f-01ba438509ee)
 
+**Biggest Number in Array?**
+```
+//biggest number in array
+
+int[] arr= {1,2,3,9,5,6,7};
+int bigNmuber = arr[0];
+for (int i = 0; i < arr.Length; i++)
+{
+    if(arr[i] > bigNmuber)
+    {
+        bigNmuber = arr[i];
+    }
+}
+Console.WriteLine("Biggest Number in given Array: " + bigNmuber);
+Console.ReadLine();
+```
+![image](https://github.com/user-attachments/assets/2817053a-54d1-485e-98f0-700bc27c55ca)
+
 
 
 
