@@ -47,7 +47,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Prime_number_Exp", "Prime_n
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Biggest_Number_In_Array", "Biggest_Number_In_Array\Biggest_Number_In_Array.csproj", "{83A6BAC9-52EC-41FD-AC32-1DDA1A105A20}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "first_non_repeating_element_in_Array", "first_non_repeating_element_in_Array\first_non_repeating_element_in_Array.csproj", "{C0AB2EE2-71AA-4B0F-BF3F-6E68601B05D7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "first_non_repeating_element_in_Array", "first_non_repeating_element_in_Array\first_non_repeating_element_in_Array.csproj", "{C0AB2EE2-71AA-4B0F-BF3F-6E68601B05D7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Reverse_Integer", "Reverse_Integer\Reverse_Integer.csproj", "{4CC07464-2BC1-4F9B-9F86-2CF4C38B665B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -147,6 +149,10 @@ Global
 		{C0AB2EE2-71AA-4B0F-BF3F-6E68601B05D7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C0AB2EE2-71AA-4B0F-BF3F-6E68601B05D7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C0AB2EE2-71AA-4B0F-BF3F-6E68601B05D7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4CC07464-2BC1-4F9B-9F86-2CF4C38B665B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4CC07464-2BC1-4F9B-9F86-2CF4C38B665B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4CC07464-2BC1-4F9B-9F86-2CF4C38B665B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4CC07464-2BC1-4F9B-9F86-2CF4C38B665B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
