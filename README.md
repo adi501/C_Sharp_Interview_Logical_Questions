@@ -153,8 +153,43 @@ Console.ReadLine();
 }
 ```
 ![image](https://github.com/user-attachments/assets/cbfe5cce-5697-4a82-b5fa-d1ed74e67c47)
+
+
 ![image](https://github.com/user-attachments/assets/771142a6-9d32-472a-934f-2c897459a014)
 
+**Reverse Integer in c#**
+```
+// input: 12345 // output: 54321
+int input = 12345;
+int output = 0;
+while (input != 0)
+{
+    int remainder = input % 10;
+    output = output * 10 + remainder;
+    input = input / 10;
+}
+Console.WriteLine(output);  //54321
+Console.ReadLine();
+```
+**Fibonacci Series in c#**
+```
+//Fibonacci_Series_Example
+//0,1,1,2,3,5,8,13,21,34 (upto 50)
+
+int firstNum = 0, secondNumber = 1;
+Console.WriteLine(firstNum);
+Console.WriteLine(secondNumber);
+int result=firstNum+secondNumber;
+while(result<50)
+{
+    Console.WriteLine(result);
+    firstNum = secondNumber;
+    secondNumber = result;
+    result = firstNum + secondNumber;
+}
+Console.ReadLine();
+
+```
 
 
 
