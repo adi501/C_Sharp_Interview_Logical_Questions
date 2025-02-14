@@ -51,6 +51,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "first_non_repeating_element
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Reverse_Integer", "Reverse_Integer\Reverse_Integer.csproj", "{4CC07464-2BC1-4F9B-9F86-2CF4C38B665B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Threading_Interview_Question", "Threading_Interview_Question\Threading_Interview_Question.csproj", "{FB88DDD2-EA05-4A8D-911E-79564C8ACC6E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -153,6 +155,10 @@ Global
 		{4CC07464-2BC1-4F9B-9F86-2CF4C38B665B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4CC07464-2BC1-4F9B-9F86-2CF4C38B665B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4CC07464-2BC1-4F9B-9F86-2CF4C38B665B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FB88DDD2-EA05-4A8D-911E-79564C8ACC6E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FB88DDD2-EA05-4A8D-911E-79564C8ACC6E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FB88DDD2-EA05-4A8D-911E-79564C8ACC6E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FB88DDD2-EA05-4A8D-911E-79564C8ACC6E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
