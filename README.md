@@ -190,7 +190,47 @@ while(result<50)
 Console.ReadLine();
 
 ```
+-------------------------------------------------------------------------------------------------------------------------------
+**Threading Interview Question (Output for below code?)**
+```
+//public static void Demo()
+//{
+    var task1 = StartSchool();
+    var task2 = TeachClass1();
+    var task3 = TeachClass2();
+    Task.WaitAll(task1, task2, task3);
 
+Console.ReadLine();
+//}
 
+ static async Task StartSchool()
+{
+    await Task.Run(() =>
+    {
+        Thread.Sleep(8000);
+        Console.WriteLine("School Started");
+    });
+}
+ static async Task TeachClass1()
+{
+    await Task.Run(() =>
+    {
+        Thread.Sleep(2000);
+        Console.WriteLine("Taught class 1");
+    });
+}
+ static async Task TeachClass2()
+{
+    await Task.Run(() =>
+    {
+        Thread.Sleep(3000);
+        Console.WriteLine("Taught class 2");
+    });
+
+}
+```
+![image](https://github.com/user-attachments/assets/a5c9622b-192c-48e6-a8bb-69b7790985e2)
+
+-------------------------------------------------------------------------------------------------------------------------------
 
 
