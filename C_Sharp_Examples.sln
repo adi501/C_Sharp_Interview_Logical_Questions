@@ -55,6 +55,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Threading_Interview_Questio
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Longest_Substring_without_repeating_characters", "Longest_Substring_without_repeating_characters\Longest_Substring_without_repeating_characters.csproj", "{B1746825-AFE6-4CA9-88B1-8DF1B9336A03}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Reverse_an_array_without_using_Array_Reverse", "Reverse_an_array_without_using_Array_Reverse\Reverse_an_array_without_using_Array_Reverse.csproj", "{3BA0E733-B369-4F2A-A88F-2D3D1BB1067F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -165,6 +167,10 @@ Global
 		{B1746825-AFE6-4CA9-88B1-8DF1B9336A03}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B1746825-AFE6-4CA9-88B1-8DF1B9336A03}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B1746825-AFE6-4CA9-88B1-8DF1B9336A03}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3BA0E733-B369-4F2A-A88F-2D3D1BB1067F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3BA0E733-B369-4F2A-A88F-2D3D1BB1067F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3BA0E733-B369-4F2A-A88F-2D3D1BB1067F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3BA0E733-B369-4F2A-A88F-2D3D1BB1067F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
