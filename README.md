@@ -260,4 +260,23 @@ Console.ReadLine();
 ```
 ![image](https://github.com/user-attachments/assets/7d5bba16-7e0a-491e-b993-6c9c8781e299)
 
+-------------------------------------------------------------------------------------------------------------------------------
+**Reverse an array without using Array.Reverse()**
+```
+int[] arr = new int[] { 1, 2, 3, 4, 5, 6, 7, 8 };
+for (int i = 0; i < arr.Length / 2; i++)
+{
+    //Methods 1
+    //int tmp = arr[i];
+    //arr[i] = arr[arr.Length - i - 1];
+    //arr[arr.Length - i - 1] = tmp;
 
+    //Methods 2
+    //Note : assume a=arr[i] and b=arr[arr.Length - i - 1] , then a=a+b, b=a-b, a=a-b
+    arr[i] = arr[i] + arr[arr.Length - i - 1]; //a=a+b
+    arr[arr.Length - i - 1] = arr[i] - arr[arr.Length - i - 1]; //b=a-b
+    arr[i] = arr[i] - arr[arr.Length - i - 1]; //a=a-b
+}
+Console.WriteLine(string.Join(",", arr));
+```
+![image](https://github.com/user-attachments/assets/ad13786f-3336-498f-9262-76a7ee05a411)
