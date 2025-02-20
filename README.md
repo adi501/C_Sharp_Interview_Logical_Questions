@@ -232,5 +232,32 @@ Console.ReadLine();
 ![image](https://github.com/user-attachments/assets/a5c9622b-192c-48e6-a8bb-69b7790985e2)
 
 -------------------------------------------------------------------------------------------------------------------------------
+**Find the longest substring without repeating characters**
+```
+
+//Input: "abcabcbb" find the longest substring without repeating characters.
+//Output: The longest substring is "abc".
+
+string input = "abcabcbb";
+List<string> substrings = new List<string>();
+for (int i = 0; i < input.Length; i++)
+{
+    string substring = "";
+    for (int j = i; j < input.Length; j++)
+    {
+        if (substring.Contains(input[j]))
+        {
+            break;
+        }
+        substring += input[j];
+    }
+    substrings.Add(substring);
+
+}
+var a = substrings.OrderByDescending(x => x.Length).FirstOrDefault();
+Console.WriteLine($"The longest substring is \"{a}\".");
+Console.ReadLine();
+```
+![image](https://github.com/user-attachments/assets/7d5bba16-7e0a-491e-b993-6c9c8781e299)
 
 
